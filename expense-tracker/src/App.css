@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: #f7f7f7;
+  background-color: rgb(218, 225, 233);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,3 +28,20 @@ h4 {
   text-transform: uppercase;
 }
 
+.ie-container {
+  background-color: rgb(218, 225, 233);;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.ie-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.ie-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
