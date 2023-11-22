@@ -25,7 +25,9 @@ body {
   width: 400px;
 }
 
-h1 {
+h1, h2 {
+  display: flex;
+  justify-content: center;
   letter-spacing: 1px;
   margin: 0;
 }
@@ -37,11 +39,13 @@ h3 {
 }
 
 h4 {
+  display: flex;
   margin: 0;
+  justify-content: center;
   text-transform: uppercase;
 }
 
-.inc-exp-container {
+.ie-container {
   background-color: #fff;
   box-shadow: var(--box-shadow);
   padding: 20px;
@@ -50,12 +54,12 @@ h4 {
   margin: 20px 0;
 }
 
-.inc-exp-container > div {
+.ie-container > div {
   flex: 1;
   text-align: center;
 }
 
-.inc-exp-container > div:first-of-type {
+.ie-container > div:first-of-type {
   border-right: 1px solid #dedede;
 }
 
@@ -130,7 +134,7 @@ input[type='number'] {
 .list li.minus {
   border-right: 5px solid #c0392b;
 }
-
+ 
 .delete-btn {
   cursor: pointer;
   background-color: #e74c3c;
@@ -144,7 +148,7 @@ input[type='number'] {
   left: 0;
   transform: translate(-100%, -50%);
   opacity: 0;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.4s ease;
 }
 
 .list li:hover .delete-btn {
