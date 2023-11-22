@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-image: url("https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg");
+  background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,6 +19,11 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
+}
+
+.outer {
+  background-color: rgb(161, 186, 213);
+  padding: 20px;
 }
 
 .container {
@@ -90,6 +96,11 @@ input[type='number'] {
   font-size: 16px;
   padding: 10px;
   width: 100%;
+  border-radius: 20px;
+}
+
+input:hover {
+  border: 2px black solid;
 }
 
 .btn {
@@ -103,6 +114,10 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 255, 0.638);
 }
 
 .btn:focus,
@@ -154,3 +169,4 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+
